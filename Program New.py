@@ -473,6 +473,7 @@ class menu:
         help1.place(x=285,y=300)
         quit_button = Button(self.frame, text="Quit", width=6, relief=GROOVE, command=lambda: end())
         quit_button.place(x=410, y=440)
+        self.menu.mainloop()
 
         
 
